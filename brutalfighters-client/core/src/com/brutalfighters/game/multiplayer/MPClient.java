@@ -18,8 +18,9 @@ public class MPClient {
 		client.start();
 		try {
 			//client.connect(5000, "188.226.195.78", 54777, 54666); // OLD_OUTDATED_DIGITALOCEAN_EU //$NON-NLS-1$
-			client.connect(5000, "107.170.243.67", 54777, 54666); // NA_SanFrancisco_DigitalOcean //$NON-NLS-1$
-			//client.connect(5000, "127.0.0.1", 54777, 54666); //$NON-NLS-1$
+//			client.connect(5000, "107.170.243.67", 54777, 54666); // NA_SanFrancisco_DigitalOcean //$NON-NLS-1$
+//			client.connect(5000, "127.0.0.1", 54777, 54666); //$NON-NLS-1$
+                        client.connect(5000, "47.95.238.160", 54777, 54666); //$NON-NLS-1$
 		} catch (IOException e) {
 			JOptionPane.showMessageDialog(null, "Cannot connect to the server, perhaps the server haven't started yet"); //$NON-NLS-1$
 		}

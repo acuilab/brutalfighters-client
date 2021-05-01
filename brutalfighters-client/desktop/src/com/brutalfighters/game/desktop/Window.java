@@ -17,8 +17,10 @@ public class Window {
 		cfg.vSyncEnabled = true;
 //		cfg.width = (int) 3840;
 //		cfg.height = (int) 2160;
-		cfg.width = (int) screenSize.getWidth();
-		cfg.height = (int) screenSize.getHeight();
+		cfg.width = (int) 800;
+		cfg.height = (int) 600;
+//		cfg.width = (int) screenSize.getWidth();
+//		cfg.height = (int) screenSize.getHeight();
 		cfg.resizable = false;
 		cfg.fullscreen = fullscreen;
 	}

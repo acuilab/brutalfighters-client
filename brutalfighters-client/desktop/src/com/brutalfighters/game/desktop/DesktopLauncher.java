@@ -8,7 +8,7 @@ public class DesktopLauncher {
 	
 	public static void main (String[] arg) {
 		System.out.println("Initializing the Window!"); //$NON-NLS-1$
-		Window.Initialize("Fighting Game", true); //$NON-NLS-1$
+		Window.Initialize("Fighting Game", false); //$NON-NLS-1$
 		System.err.println("The Window has Initialized"); //$NON-NLS-1$
 		
 		System.out.println("Calling the Game!"); //$NON-NLS-1$
